@@ -234,12 +234,12 @@ latex_elements = {
 #                 BoldItalicFont    = NotoSans-BoldItalic,
 #                 Mapping=tex-text
 #             ]{NotoSans-Regular}
-\setmainfont{NotoSans}
-\setsansfont{NotoSans}
+# \setmainfont{NotoSans}
+# \setsansfont{NotoSans}
 \setmathfont{Asana-Math.otf}
-# \setmainfont{DejaVu Serif}
-# \setsansfont{DejaVu Sans}
-# \setmonofont{DejaVu Sans Mono}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
