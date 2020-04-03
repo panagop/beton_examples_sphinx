@@ -17,7 +17,7 @@
 καθώς και <myfocus1>μέση κατηγορία :math:`\underline{x}=[  x_{1}, ...,  x_{n}]^{T}` πλαστιμότητας (ΚΠΜ)</myfocus1>.
 Η συνολική επικάλυψη 
 
-:math:`\underline{x}=[  x_{1}, ...,  x_{n}]^{T}`
+:math:`ρ_{max}^{κρισ} =7.47‰ -> A_{s,max}^{\kappa \rho \iota \sigma}=ρ_{max}^{κρισ}\cdot b\cdot d=0.00747\cdot25\text{cm}\cdot45\text{cm}=8.40\text{cm}^2`
 
 
 Δίνεται πρόβολος μήκους <myfocus1>$L=3.00\text{m}$</myfocus1> με μοναχικά μόνιμα και κινητά 
