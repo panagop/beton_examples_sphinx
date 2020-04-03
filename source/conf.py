@@ -224,27 +224,27 @@ latex_documents = [
 # If false, no module index is generated.
 #latex_use_modindex = True
 
-latex_engine = 'xelatex'
-latex_elements = {
-    'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-''',
-    'preamble': r'''
-\usepackage[titles]{tocloft}
-\usepackage[Greek,Latin]{ucharclasses}
-\usepackage{xgreek}
-\usepackage[no-math]{fontspec}
-\usepackage{amssymb,amsmath,amsthm,amsfonts} 
-\usepackage{unicode-math}
-\defaultfontfeatures{Mapping=tex-text}
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
-''',
-    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
-    'printindex': r'\footnotesize\raggedright\printindex',
-}
-latex_show_urls = 'footnote'
+# latex_engine = 'xelatex'
+# latex_elements = {
+#     'fontpkg': r'''
+# \setmainfont{DejaVu Serif}
+# \setsansfont{DejaVu Sans}
+# \setmonofont{DejaVu Sans Mono}
+# ''',
+#     'preamble': r'''
+# \usepackage[titles]{tocloft}
+# \usepackage[Greek,Latin]{ucharclasses}
+# \usepackage{xgreek}
+# \usepackage[no-math]{fontspec}
+# \usepackage{amssymb,amsmath,amsthm,amsfonts} 
+# \usepackage{unicode-math}
+# \defaultfontfeatures{Mapping=tex-text}
+# \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+# \setlength{\cftchapnumwidth}{0.75cm}
+# \setlength{\cftsecindent}{\cftchapnumwidth}
+# \setlength{\cftsecnumwidth}{1.25cm}
+# ''',
+#     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+#     'printindex': r'\footnotesize\raggedright\printindex',
+# }
+# latex_show_urls = 'footnote'
