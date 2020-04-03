@@ -29,7 +29,6 @@ need it.
     :maxdepth: 1
 
     Κάμψη                             <beams/flex>
-    .. Διάτμηση                          <beams/shear.md>
 
 .. toctree::
    :caption: Including MathJax in a Web Page
