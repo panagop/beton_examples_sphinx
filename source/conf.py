@@ -248,3 +248,16 @@ latex_documents = [
 #     'printindex': r'\footnotesize\raggedright\printindex',
 # }
 # latex_show_urls = 'footnote'
+
+latex_engine = 'xelatex'
+latex_elements = {
+     'preamble': r'''
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\newfontfamily\greekfont[Script=Greek]{Linux Libertine O}
+\newfontfamily\greekfontsf[Script=Greek]{Linux Libertine O}
+\usepackage{polyglossia}
+\setdefaultlanguage{greek}
+''',
+}
