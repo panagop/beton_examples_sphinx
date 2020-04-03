@@ -12,27 +12,24 @@ from that of MathJax version 2.  Use the green menu at the bottom of
 the sidebar on the left to access the version 2 documentation if you
 need it.
 
-.. .. toctree::
-..     :caption: Δοκοί
-..     :name: beams
-..     :maxdepth: 1
+.. toctree::
+    :caption: Δοκοί
+    :name: beams
+    :maxdepth: 1
 
-.. .. only:: html
-
-..     Κάμψη                             <beams/flex>
+    Κάμψη                             <beams/flex>
 ..     Διάτμηση                          <beams/shear.md>
 
-.. only:: latex
-    .. toctree::
-        :caption: The Basics
-        :name: basics
-        :maxdepth: 1
+.. toctree::
+    :caption: The Basics
+    :name: basics
+    :maxdepth: 1
 
-        What is MathJax?                  <basic/mathjax>
-        MathJax Accessibility Features    <basic/accessibility>
-        Writing Mathematics for MathJax   <basic/mathematics>
-        The MathJax Community             <basic/community>
-        Reporting Issues with MathJax     <basic/bugs>
+    What is MathJax?                  <basic/mathjax>
+    MathJax Accessibility Features    <basic/accessibility>
+    Writing Mathematics for MathJax   <basic/mathematics>
+    The MathJax Community             <basic/community>
+    Reporting Issues with MathJax     <basic/bugs>
 
 .. toctree::
    :caption: Including MathJax in a Web Page
