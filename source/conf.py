@@ -227,7 +227,6 @@ latex_documents = [
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
-\setmathfont{Asana-Math}
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
