@@ -255,8 +255,8 @@ latex_elements = {
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \setsansfont{Arial}
-\newfontfamily\greekfont[Script=Greek]{Linux Libertine O}
-\newfontfamily\greekfontsf[Script=Greek]{Linux Libertine O}
+\newfontfamily\greekfont[Script=Greek]{Times New Roman}
+\newfontfamily\greekfontsf[Script=Greek]{Times New Roman}
 \usepackage{polyglossia}
 \setdefaultlanguage{greek}
 ''',
