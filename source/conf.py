@@ -227,9 +227,16 @@ latex_documents = [
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
+\setmainfont[   Path              = ./fonts/,
+				Extension         = .ttf,
+                BoldFont          = NotoSans-Bold,
+                ItalicFont        = NotoSans-Italic,
+                BoldItalicFont    = NotoSans-BoldItalic,
+                Mapping=tex-text
+            ]{NotoSans-Regular}
+# \setmainfont{DejaVu Serif}
+# \setsansfont{DejaVu Sans}
+# \setmonofont{DejaVu Sans Mono}
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
