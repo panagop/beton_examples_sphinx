@@ -227,15 +227,6 @@ latex_documents = [
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
-# \setmainfont[   Path              = ./fonts/,
-# 				Extension         = .ttf,
-#                 BoldFont          = NotoSans-Bold,
-#                 ItalicFont        = NotoSans-Italic,
-#                 BoldItalicFont    = NotoSans-BoldItalic,
-#                 Mapping=tex-text
-#             ]{NotoSans-Regular}
-# \setmainfont{NotoSans}
-# \setsansfont{NotoSans}
 \setmathfont{Asana-Math.otf}
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
