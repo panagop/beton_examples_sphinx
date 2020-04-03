@@ -1,1 +1,2 @@
 ﻿recommonmark
+sphinxcontrib-plantuml
