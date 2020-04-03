@@ -227,13 +227,16 @@ latex_documents = [
 latex_engine = 'xelatex'
 latex_elements = {
     'fontpkg': r'''
-\setmainfont[   Path              = ./fonts/,
-				Extension         = .ttf,
-                BoldFont          = NotoSans-Bold,
-                ItalicFont        = NotoSans-Italic,
-                BoldItalicFont    = NotoSans-BoldItalic,
-                Mapping=tex-text
-            ]{NotoSans-Regular}
+# \setmainfont[   Path              = ./fonts/,
+# 				Extension         = .ttf,
+#                 BoldFont          = NotoSans-Bold,
+#                 ItalicFont        = NotoSans-Italic,
+#                 BoldItalicFont    = NotoSans-BoldItalic,
+#                 Mapping=tex-text
+#             ]{NotoSans-Regular}
+\setmainfont{NotoSans}
+\setsansfont{NotoSans}
+\setmathfont{Asana-Math.otf}
 # \setmainfont{DejaVu Serif}
 # \setsansfont{DejaVu Sans}
 # \setmonofont{DejaVu Sans Mono}
@@ -245,7 +248,6 @@ latex_elements = {
 \usepackage[no-math]{fontspec}
 \usepackage{amssymb,amsmath,amsthm,amsfonts} 
 \usepackage{unicode-math}
-\setmathfont{Asana-Math.otf}
 \defaultfontfeatures{Mapping=tex-text}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
