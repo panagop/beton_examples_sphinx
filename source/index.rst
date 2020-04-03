@@ -13,6 +13,17 @@ the sidebar on the left to access the version 2 documentation if you
 need it.
 
 .. toctree::
+    :caption: Δοκοί
+    :name: beams
+    :maxdepth: 1
+
+    Κάμψη                             <beams/flex>
+
+    .. only:: html
+
+        .. Διάτμηση                          <beams/shear.md>
+
+.. toctree::
     :caption: The Basics
     :name: basics
     :maxdepth: 1
@@ -22,14 +33,6 @@ need it.
     Writing Mathematics for MathJax   <basic/mathematics>
     The MathJax Community             <basic/community>
     Reporting Issues with MathJax     <basic/bugs>
-
-.. toctree::
-    :caption: Δοκοί
-    :name: beams
-    :maxdepth: 1
-
-    Κάμψη                             <beams/flex>
-.. Διάτμηση                          <beams/shear.md>
 
 .. toctree::
    :caption: Including MathJax in a Web Page
