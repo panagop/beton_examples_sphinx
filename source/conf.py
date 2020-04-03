@@ -240,6 +240,13 @@ latex_elements = {
 ''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
+\usepackage[Greek,Latin]{ucharclasses}
+\usepackage{xgreek}
+\usepackage[no-math]{fontspec}
+\usepackage{amssymb,amsmath,amsthm,amsfonts} 
+\usepackage{unicode-math}
+\setmathfont{Asana-Math.otf}
+\defaultfontfeatures{Mapping=tex-text}
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
